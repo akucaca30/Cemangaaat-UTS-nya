@@ -1,10 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Semangat UTS Sayang 💗</title>
+  <title>Semangat UTS Sayang ❤️</title>
+
   <style>
     * {
       box-sizing: border-box;
@@ -16,7 +16,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background: linear-gradient(135deg, #ffd6e8, #fff0f6);
+      background: linear-gradient(135deg, #ffb3b3, #ffe5e5);
       font-family: 'Segoe UI', sans-serif;
       text-align: center;
       padding: 20px;
@@ -28,17 +28,17 @@
       border-radius: 25px;
       max-width: 420px;
       width: 100%;
-      box-shadow: 0 10px 30px #e99abb55;
+      box-shadow: 0 10px 30px #d9363655;
       animation: muncul 1s ease;
     }
 
     h1 {
-      color: #e75494;
+      color: #c62828;
       font-size: 28px;
     }
 
     p {
-      color: #80566b;
+      color: #803535;
       line-height: 1.8;
     }
 
@@ -48,7 +48,7 @@
     }
 
     button {
-      background: #ff69a6;
+      background: #e53935;
       color: white;
       border: none;
       padding: 14px 25px;
@@ -56,60 +56,87 @@
       cursor: pointer;
       font-size: 15px;
       margin-top: 15px;
+      transition: 0.3s;
     }
 
     button:hover {
-      background: #e75494;
+      background: #b71c1c;
+      transform: scale(1.05);
     }
 
     #pesan {
       display: none;
       margin-top: 20px;
-      background: #fff0f6;
+      background: #fff0f0;
       padding: 18px;
       border-radius: 15px;
+      border: 1px solid #ffcaca;
+    }
+
+    #pesan h2 {
+      color: #c62828;
+    }
+
+    #pesan h3 {
+      color: #b71c1c;
     }
 
     @keyframes detak {
-      to { transform: scale(1.2); }
+      to {
+        transform: scale(1.2);
+      }
     }
 
     @keyframes muncul {
-      from { opacity: 0; transform: translateY(25px); }
-      to { opacity: 1; transform: translateY(0); }
+      from {
+        opacity: 0;
+        transform: translateY(25px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
   </style>
 </head>
+
 <body>
 
   <div class="card">
-    <div class="heart">💗</div>
+
+    <div class="heart">❤️</div>
 
     <h1>Cemangaaat UTS-nya!!</h1>
 
     <p>
-      Haiii kamuuu! 🥹💐<br>
-      Aku punya pesan kecil buat kamu.
+      Haiii Yuannnncuuu! 🥹🌹<br>
+      Bocil Kematian.
     </p>
 
     <button onclick="bukaPesan()">
-      Klik di sini yaa 💌
+      Di pencet yg ini 💌
     </button>
 
     <div id="pesan">
-      <h2>For You 💕</h2>
+      <h2>For You ❤️</h2>
+
       <p>
         Semangaaat UTS-nya sayanggg! 🥰<br><br>
+
         Jangan lupa belajar, makan yang teratur,
         dan istirahat yang cukup yaaa.<br><br>
+
         Jangan terlalu capek, jangan stres.
-        Aku percaya kamu pasti bisa!<br><br>
-        Apa pun hasilnya nanti,
-        kamu sudah melakukan yang terbaik.<br><br>
-        Good luck, my favorite person! 💗
+        Cepet sembuh!<br><br>
+
+       Jngn nakal dan kurang ajar y.<br><br>
+
+        Good luck, my favorite person! ❤️
       </p>
-      <h3>YOU CAN DO IT! 🌷</h3>
+
+      <h3>YOU CAN DO IT! 🌹</h3>
     </div>
+
   </div>
 
   <script>
