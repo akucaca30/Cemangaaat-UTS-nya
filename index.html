@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semangat UTS Sayang 💗</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #ffd6e8, #fff0f6);
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 35px 25px;
+      border-radius: 25px;
+      max-width: 420px;
+      width: 100%;
+      box-shadow: 0 10px 30px #e99abb55;
+      animation: muncul 1s ease;
+    }
+
+    h1 {
+      color: #e75494;
+      font-size: 28px;
+    }
+
+    p {
+      color: #80566b;
+      line-height: 1.8;
+    }
+
+    .heart {
+      font-size: 55px;
+      animation: detak 1s infinite alternate;
+    }
+
+    button {
+      background: #ff69a6;
+      color: white;
+      border: none;
+      padding: 14px 25px;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 15px;
+      margin-top: 15px;
+    }
+
+    button:hover {
+      background: #e75494;
+    }
+
+    #pesan {
+      display: none;
+      margin-top: 20px;
+      background: #fff0f6;
+      padding: 18px;
+      border-radius: 15px;
+    }
+
+    @keyframes detak {
+      to { transform: scale(1.2); }
+    }
+
+    @keyframes muncul {
+      from { opacity: 0; transform: translateY(25px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="heart">💗</div>
+
+    <h1>Cemangaaat UTS-nya!!</h1>
+
+    <p>
+      Haiii kamuuu! 🥹💐<br>
+      Aku punya pesan kecil buat kamu.
+    </p>
+
+    <button onclick="bukaPesan()">
+      Klik di sini yaa 💌
+    </button>
+
+    <div id="pesan">
+      <h2>For You 💕</h2>
+      <p>
+        Semangaaat UTS-nya sayanggg! 🥰<br><br>
+        Jangan lupa belajar, makan yang teratur,
+        dan istirahat yang cukup yaaa.<br><br>
+        Jangan terlalu capek, jangan stres.
+        Aku percaya kamu pasti bisa!<br><br>
+        Apa pun hasilnya nanti,
+        kamu sudah melakukan yang terbaik.<br><br>
+        Good luck, my favorite person! 💗
+      </p>
+      <h3>YOU CAN DO IT! 🌷</h3>
+    </div>
+  </div>
+
+  <script>
+    function bukaPesan() {
+      document.getElementById("pesan").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
